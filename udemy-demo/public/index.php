@@ -5,10 +5,13 @@
 
 	$router->add('',['controller'=>'home','action'=>'index']);
 	$router->add('posts',['controller'=>'posts','action'=>'index']);
-	$router->add('posts/new',['controller'=>'posts','action'=>'new']);
+	// $router->add('posts/new',['controller'=>'posts','action'=>'new']);
+	$router->add('{controller}/{action}'); //eg: posts/new
+	$router->add('admin/{action}/{controller}'); //eg: admin/new/user
+	$router->add('{controller}/{id:\d+}/{action}');
 
 	echo "<pre>";
-	// var_dump($router->getRoutes());
+	var_dump($router->getRoutes());
 	
 
 	$url = $_SERVER['QUERY_STRING'];
