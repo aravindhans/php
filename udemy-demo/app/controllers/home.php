@@ -14,9 +14,14 @@ class Home extends \core\BaseController
 
     public function indexAction(){
         //echo "calling index() method in Home";
-        \core\View::render('home\index.php',[
+        // \core\View::render('home\index.php',[
+        //     'name'=>'Arvind',
+        //     'colors'=>['red','blue','green']
+        // ]);
+
+        \core\View::renderTemplate('home\index.html',[
             'name'=>'Arvind',
-            'colors'=>['red','blue','green']
+            'colors'=>['red','blue','green','yellow']
         ]);
     }
 
