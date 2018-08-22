@@ -28,13 +28,19 @@ class Router{
         $this->routes[$route] = $params;
     }
 
-    //match route and set params if the route is found
-    public function match($url){
+    /**
+     * Match route and set params if the route is found
+     */
+    public function match($url)
+    {
         foreach($this->routes as $route => $params){
             //echo $route;
-            if(preg_match($route,$url,$matches)){
-                foreach($matches as $key => $match){
-                    if(is_string($key)){
+            if(preg_match($route, $url, $matches))
+            {
+                foreach($matches as $key => $match)
+                {
+                    if(is_string($key))
+                    {
                         $params[$key] = $match;
                     }
                 }
@@ -48,56 +54,73 @@ class Router{
     /* parses url and dispatches based on the controller and action specified in the url */
     public function dispatch($url){
         $url = $this->removeQueryVariables($url);
-        if($this->match($url)){
+        if($this->match($url))
+        {
             $controller = $this->params['controller'];
             $controller = $this->convertToStudlyCase($controller);
             $controller = $this->getNamespace().$controller; //enables use of subdirs under controllers
 
-            if(class_exists($controller)){
+            if(class_exists($controller))
+            {
                 $controller_object = new $controller($this->params);
 
                 $action = $this->params['action'];
                 $action = $this->convertToCamelCase($action);
 
                 // fixes a security hole where a direct call to indexAction() / editAction() etc.. is prevented
-                if(preg_match('/action$/i',$action)==0){ 
+                if(preg_match('/action$/i', $action)==0)
+                { 
                     $controller_object->$action();
-                }else {
-                    echo "Controller ($controller) exists but method ($action) cannot be called";
+                }
+                else{
+                    throw new \Exception("Controller ($controller) exists but method ($action) cannot be called");
                 }
             }
             else{
-                echo "Controller ($controller) does not exist";
+                throw new \Exception("Controller ($controller) does not exist");
             }
         }
         else{
-            echo "URL ($url) cannot be matched with the regex.";
+            throw new \Exception("URL ($url) cannot be matched with the regex.", 404);
         }
     }
 
-    /* remove query variables */
-    protected function removeQueryVariables($url){
-        if($url!=''){
-            $parts = explode('&',$url);
-            if(strpos($parts[0],'=')===false){
+    /**
+     * Remove query variables and set only the path
+     */
+    protected function removeQueryVariables($url)
+    {
+        if($url!='')
+        {
+            $parts = explode('&', $url);
+            if(strpos($parts[0], '=')===false)
+            {
                 $url=$parts[0];
-            }else{
+            }
+            else{
                 $url='';
             }
         }
         return $url;
     }
 
-    /* Replaces hyphens and spaces and updates string to Studly case */
+    /** 
+     * Replaces hyphens and spaces and updates string to Studly case 
+     */
     protected function convertToStudlyCase($string){
         return str_replace(' ','',ucwords(str_replace('-',' ',$string)));
     }
 
-    /*  Same as convertToStudlyCase but first char will be lower */
+    /**
+     *   Same as convertToStudlyCase but first char will be lower 
+     */
     protected function convertToCamelCase($string){
         return lcfirst($this->convertToStudlyCase($string));
     }
 
+    /**
+     * Prefix each call with namespace
+     */
     protected function getNamespace(){
         $namespace = 'app\controllers\\';
         if(array_key_exists('namespace',$this->params)){

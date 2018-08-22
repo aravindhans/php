@@ -4,25 +4,37 @@ namespace core;
 
 class View{
 
-    public static function render($view, $args = []){
-        extract($args,EXTR_SKIP);
+    /**
+     * Render the view file
+     */
+    public static function render($view, $args = [])
+    {
+        extract($args, EXTR_SKIP);
         $file = "../app/views/$view";
-        if(is_readable($file)){
+        if(is_readable($file))
+        {
             require $file;
-        }else{
-            echo "view ($view) cannot be found";
+        }
+        else{
+            throw new \Exception("view ($view) cannot be found");
         }
     }
 
-    public static function renderTemplate($template, $args = []){
+    /**
+     * Renders the template file from the Views folder
+     * Twig template engine is used here.
+     */
+    public static function renderTemplate($template, $args = [])
+    {
         static $twig = null;
 
-        if($twig === null){
+        if($twig === null)
+        {
             $loader = new \Twig_Loader_FileSystem('../app/Views');
             $twig = new \Twig_Environment($loader);
         }
 
-        echo $twig->render($template,$args);
+        echo $twig->render($template, $args);
     }
 
 }

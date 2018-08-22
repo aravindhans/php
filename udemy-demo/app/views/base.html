@@ -22,7 +22,9 @@
             <a href="/">Home</a>
             <a href="/posts/Index">Posts</a>
         </nav>
-        {% block body%}{% endblock %}
+
+        <h1>{% block header%}{% endblock %}</h1>
+        <p>{% block body%}{% endblock %}</p>
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

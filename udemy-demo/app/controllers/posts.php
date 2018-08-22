@@ -2,6 +2,9 @@
 
 namespace app\controllers;
 
+use \core\view;
+use \app\models\Post;
+
 class Posts extends \core\BaseController
 {
 
@@ -14,8 +17,11 @@ class Posts extends \core\BaseController
     }
 
     public function indexAction(){
-        echo 'index() function called from Posts';
-        echo '<p>Query String Parameters: <pre>'.\htmlspecialchars(print_r($_GET,true)).'</pre></p>';
+        //get all posts from database and pass that to the view
+        $posts = Post::getAll();
+        View::renderTemplate('Posts/index.html',[
+            'posts'=>$posts
+            ]);
     }
 
     public function addNewAction(){

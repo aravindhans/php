@@ -1,0 +1,137 @@
+[22-Aug-2018 03:46:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:44
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 44
+[22-Aug-2018 03:46:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:44
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 44
+[22-Aug-2018 03:46:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:44
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 44
+[22-Aug-2018 03:46:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:44
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 44
+[22-Aug-2018 03:46:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:44
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 44
+[22-Aug-2018 03:47:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:47:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:48:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:49:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function Core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:50:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:50:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:51:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:51:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:51:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:51:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:51:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getFile() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:45
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 45
+[22-Aug-2018 03:51:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getLine() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:46
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 46
+[22-Aug-2018 03:51:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function core\getLine() in C:\Users\arvin\projects\php\udemy-demo\core\error.php:46
+Stack trace:
+#0 [internal function]: core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\Users\arvin\projects\php\udemy-demo\core\error.php on line 46
+[22-Aug-2018 03:51:53 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts1/Index) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts1/Index')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 03:51:53 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (favicon.ico) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('favicon.ico')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 03:52:22 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (favicon.ico) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('favicon.ico')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 03:52:28 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts/Index1) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts/Index1')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 03:52:28 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (favicon.ico) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('favicon.ico')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 03:52:32 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (favicon.ico) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('favicon.ico')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 03:52:42 Europe/Berlin] Uncaught exception: [Exception] Message: [Controller (app\controllers\Posters) does not exist] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posters/Index')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [80]
+[22-Aug-2018 03:52:42 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (favicon.ico) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('favicon.ico')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 03:52:48 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (favicon.ico) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('favicon.ico')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 04:07:29 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts1/111/edit) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts1/111/edit')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 04:08:33 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts1/111/edit) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts1/111/edit')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 04:08:33 Europe/Berlin] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "errors$code.html" (looked into: ../app/Views). in C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:226
+Stack trace:
+#0 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('errors$code.htm...')
+#1 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Environment.php(270): Twig_Loader_Filesystem->getCacheKey('errors$code.htm...')
+#2 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Environment.php(350): Twig_Environment->getTemplateClass('errors$code.htm...')
+#3 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('errors$code.htm...')
+#4 C:\Users\arvin\projects\php\udemy-demo\core\view.php(37): Twig_Environment->render('errors$code.htm...', Array)
+#5 C:\Users\arvin\projects\php\udemy-demo\core\error.php(59): core\View::renderTemplate('errors$code.htm...') in C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Loader\Filesystem.php on line 226
+[22-Aug-2018 04:08:42 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts1/111/edit) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts1/111/edit')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 04:11:00 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts1/Index) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts1/Index')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 04:11:29 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts1/Index) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts1/Index')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
+[22-Aug-2018 04:11:29 Europe/Berlin] PHP Fatal error:  Uncaught Twig_Error_Syntax: The block 'title' has already been defined line 8. in C:\Users\arvin\projects\php\udemy-demo\app\views\base.html:26
+Stack trace:
+#0 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Parser.php(168): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#1 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Parser.php(81): Twig_Parser->subparse(NULL, false)
+#2 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig\lib\Twig\Template.php(330): Twig_Environment->loadTemplate('base.html', NULL)
+#6 C:\Users\arvin\projects\php\udemy-demo\vendor\twig\twig in C:\Users\arvin\projects\php\udemy-demo\app\views\base.html on line 26
+[22-Aug-2018 04:11:53 Europe/Berlin] Uncaught exception: [Exception] Message: [URL (posts1/Index) cannot be matched with the regex.] Stack Trace: [#0 C:\Users\arvin\projects\php\udemy-demo\public\index.php(54): core\Router->dispatch('posts1/Index')
+#1 {main}] Thrown in [C:\Users\arvin\projects\php\udemy-demo\core\router.php] on line [84]
